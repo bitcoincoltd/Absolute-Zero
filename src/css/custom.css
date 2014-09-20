@@ -1,0 +1,62 @@
+BODY {
+	margin:0px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.wrapper {
+	margin:35px 10px 10px 10px;
+}
+.fullopts button {
+	width:100%;
+}
+#optbar {
+	position:fixed;
+	top:0px;
+	left:0px;
+	right:0px;
+	height:25px;
+	background:#000;
+	color:#FFF;
+	cursor:pointer;
+}
+#optbar h1 {
+	margin:0px;
+	font-size:14px;
+	font-weight:bold;
+	padding-left:10px;
+	line-height:25px;
+}
+#optbar .glyphicon {
+	position:absolute;
+	top:2px;
+	right:10px;
+	font-size:22px;
+}
+.page {
+	display:none;
+	min-height:190px;
+}
+.seedlist {
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+.seedlist li {
+	padding:5px 10px;
+	font-size:18px;
+	cursor:pointer;
+	border-bottom:1px solid #999;
+}
+.seedlist li b{
+	font-weight:normal;
+}
+.seedlist .label {
+	margin-right:10px;
+}
+.seedlist .selected {
+	background:#f1f1f1;
+}

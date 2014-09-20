@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Absolute Zero</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+  </head>
+  <body role="document">
+  	<div id="optbar" class="goto" data-go="landing">
+    	<h1>Options</h1>
+        <span class="glyphicon glyphicon-tasks"></span>
+    </div>
+  	<div class="wrapper">
+    	<div class="page fullopts" id="landing" title="Options" style="display:block;">
+            <p><button type="button" class="btn btn-lg btn-primary goto" data-go="enter_seed">Enter Wallet Key</button></p>
+            <p><button type="button" class="btn btn-lg btn-success goto" data-go="create_seed">Create New Wallet</button></p>
+            <p><button type="button" class="btn btn-lg btn-info goto" data-go="load_saved">Load Saved Wallet</button></p>
+        </div>
+        <div class="page fullopts" id="enter_seed" title="Enter Wallet Seed">
+        	<ul class="seedlist"></ul>
+        </div>
+        <div class="page fullopts" id="create_seed" title="Create Wallet">
+            <p>It is very important you remember the following words, if you forget these words your Bitcoins will be lost forever!</p> 
+            <p><button type="button" class="btn btn-lg btn-danger goto" data-go="create_seed2">I Understand <span class="glyphicon glyphicon-arrow-right"></span></button></p>
+        </div>
+        <div class="page" id="wallet">
+        	<p>Yay you got a wallet</p>
+        </div>
+    </div>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/init.js"></script>
+  </body>
+</html>
